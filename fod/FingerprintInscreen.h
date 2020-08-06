@@ -17,6 +17,7 @@
 #define VENDOR_AOSPA_BIOMETRICS_FINGERPRINT_INSCREEN_V1_0_FINGERPRINTINSCREEN_H
 
 #include <vendor/aospa/biometrics/fingerprint/inscreen/1.0/IFingerprintInscreen.h>
+#include <vendor/goodix/hardware/biometrics/fingerprint/2.1/IGoodixFingerprintDaemon.h>
 
 namespace vendor {
 namespace aospa {
@@ -27,12 +28,14 @@ namespace V1_0 {
 namespace implementation {
 
 using ::android::sp;
+using ::android::hardware::hidl_vec;
 using ::android::hardware::Return;
 using ::android::hardware::Void;
+using ::vendor::goodix::hardware::biometrics::fingerprint::V2_1::IGoodixFingerprintDaemon;
 
 class FingerprintInscreen : public IFingerprintInscreen {
   public:
-    FingerprintInscreen() = default;
+    FingerprintInscreen();
 
     Return<void> onStartEnroll() override;
     Return<void> onFinishEnroll() override;
@@ -49,6 +52,9 @@ class FingerprintInscreen : public IFingerprintInscreen {
     Return<int32_t> getPositionX() override;
     Return<int32_t> getPositionY() override;
     Return<int32_t> getSize() override;
+
+  private:
+    sp<IGoodixFingerprintDaemon> mGoodixFingerprintDaemon;
 };
 
 }  // namespace implementation
