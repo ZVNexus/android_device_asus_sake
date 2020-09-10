@@ -1,0 +1,2 @@
+# Allow FOD to read & write to the globalDim node.
+allow vendor_fod vendor_proc_display:file rw_file_perms;

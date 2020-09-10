@@ -1,0 +1,2 @@
+# Display
+genfscon proc /globalHbm    u:object_r:vendor_proc_display:s0

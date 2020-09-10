@@ -1,0 +1,2 @@
+# Display
+type vendor_proc_display, fs_type, proc_type;
