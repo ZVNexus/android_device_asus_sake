@@ -155,7 +155,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResTarget \
-    WifiResTarget
+    WifiResTarget \
+    ZenFone8Frameworks
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
