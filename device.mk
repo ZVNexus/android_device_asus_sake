@@ -171,6 +171,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AOSPAZenFone8SystemUI \
     FrameworksResTarget \
     WifiResTarget \
     ZenFone8Frameworks \
