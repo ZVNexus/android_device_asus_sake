@@ -140,6 +140,7 @@ PRODUCT_PACKAGES += \
     fstab.default \
     init.asus.camera.rc \
     init.asus.fingerprint.rc \
+    init.asus.wlan.rc \
     init.qti.ufs.rc \
     init.target.rc \
     ueventd.lahaina.rc
@@ -148,6 +149,9 @@ PRODUCT_PACKAGES += \
 KERNEL_MODULES_INSTALL := dlkm
 KERNEL_MODULES_OUT := $(OUT_DIR)/target/product/sake/$(KERNEL_MODULES_INSTALL)/lib/modules
 KERNEL_SD_LLVM_SUPPORT := false
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/modules.blocklist:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.blocklist
 
 # Keymaster
 PRODUCT_COPY_FILES += \
