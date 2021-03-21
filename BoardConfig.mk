@@ -72,7 +72,11 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_SCREEN_DENSITY := 420
 
 # HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    $(DEVICE_PATH)/asus_vendor_framework_compatibility_matrix.xml
+
 DEVICE_MANIFEST_FILE += \
+    $(DEVICE_PATH)/asus_manifest.xml \
     $(DEVICE_PATH)/manifest.xml
 
 DEVICE_MATRIX_FILE += \
