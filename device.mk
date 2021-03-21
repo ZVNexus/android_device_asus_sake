@@ -88,3 +88,6 @@ PRODUCT_PACKAGES += \
 # Vendor Service Manager
 PRODUCT_PACKAGES += \
     vndservicemanager
+
+# Vendor
+$(call inherit-product, vendor/asus/sake/sake-vendor.mk)
