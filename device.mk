@@ -239,6 +239,10 @@ PRODUCT_PACKAGES += \
 # Vendor
 $(call inherit-product, vendor/asus/sake/sake-vendor.mk)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service.sake
+
 # WLAN
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wlan/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
