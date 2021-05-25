@@ -17,6 +17,12 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter sake,$(TARGET_DEVICE)),)
 
 # Symlinks
+FACTORY_MOUNT_POINT_SYMLINK := $(TARGET_OUT_VENDOR)/factory
+$(FACTORY_MOUNT_POINT_SYMLINK): $(LOCAL_INSTALLED_MODULE)
+	@echo "Creating $@ link"
+	@rm -rf $@
+	$(hide) ln -sf /mnt/vendor/persist $@
+
 RFS_MSM_ADSP_SYMLINKS := $(TARGET_OUT_VENDOR)/rfs/msm/adsp/
 $(RFS_MSM_ADSP_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	@rm -rf $@/*
@@ -62,6 +68,7 @@ $(RFS_MSM_SLPI_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	$(hide) ln -sf /vendor/firmware $@/readonly/vendor/firmware
 
 ALL_DEFAULT_INSTALLED_MODULES += \
+    $(FACTORY_MOUNT_POINT_SYMLINK) \
     $(RFS_MSM_ADSP_SYMLINKS) \
     $(RFS_MSM_CDSP_SYMLINKS) \
     $(RFS_MSM_MPSS_SYMLINKS) \
