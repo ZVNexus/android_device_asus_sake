@@ -114,6 +114,7 @@ BOARD_RAMDISK_USE_LZ4 := true
 BOARD_VENDOR_KERNEL_MODULES := \
     $(KERNEL_MODULES_OUT)/adsp_loader_dlkm.ko \
     $(KERNEL_MODULES_OUT)/apr_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/aw8697.ko \
     $(KERNEL_MODULES_OUT)/bolero_cdc_dlkm.ko \
     $(KERNEL_MODULES_OUT)/bt_fm_slim.ko \
     $(KERNEL_MODULES_OUT)/btpower.ko \
@@ -123,6 +124,7 @@ BOARD_VENDOR_KERNEL_MODULES := \
     $(KERNEL_MODULES_OUT)/fc0012.ko \
     $(KERNEL_MODULES_OUT)/fc0013.ko \
     $(KERNEL_MODULES_OUT)/fc2580.ko \
+    $(KERNEL_MODULES_OUT)/focaltech_fts_zf.ko \
     $(KERNEL_MODULES_OUT)/hdmi_dlkm.ko \
     $(KERNEL_MODULES_OUT)/hid-aksys.ko \
     $(KERNEL_MODULES_OUT)/it913x.ko \
