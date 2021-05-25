@@ -1,2 +1,9 @@
 soong_namespace {
 }
+
+prebuilt_hidl_interfaces {
+    name: "hidl_bspcam_interface",
+    interfaces: [
+        "vendor.asus.bspcam@1.0::IAsusBspCameraInterface",
+    ],
+}
