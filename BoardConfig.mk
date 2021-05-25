@@ -170,6 +170,7 @@ BOARD_VENDOR_KERNEL_MODULES := \
     $(KERNEL_MODULES_OUT)/swr_dlkm.ko \
     $(KERNEL_MODULES_OUT)/swr_dmic_dlkm.ko \
     $(KERNEL_MODULES_OUT)/swr_haptics_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/sx932x_sake.ko \
     $(KERNEL_MODULES_OUT)/tda18212.ko \
     $(KERNEL_MODULES_OUT)/tda18218.ko \
     $(KERNEL_MODULES_OUT)/tda18250.ko \
