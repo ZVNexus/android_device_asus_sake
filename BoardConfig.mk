@@ -119,6 +119,7 @@ BOARD_VENDOR_KERNEL_MODULES := \
     $(KERNEL_MODULES_OUT)/bt_fm_slim.ko \
     $(KERNEL_MODULES_OUT)/btpower.ko \
     $(KERNEL_MODULES_OUT)/camera.ko \
+    $(KERNEL_MODULES_OUT)/cs35l45_i2c_dlkm.ko \
     $(KERNEL_MODULES_OUT)/e4000.ko \
     $(KERNEL_MODULES_OUT)/fc0011.ko \
     $(KERNEL_MODULES_OUT)/fc0012.ko \
@@ -162,6 +163,7 @@ BOARD_VENDOR_KERNEL_MODULES := \
     $(KERNEL_MODULES_OUT)/si2157.ko \
     $(KERNEL_MODULES_OUT)/slimbus-ngd.ko \
     $(KERNEL_MODULES_OUT)/slimbus.ko \
+    $(KERNEL_MODULES_OUT)/snd-soc-es928x.ko \
     $(KERNEL_MODULES_OUT)/snd_event_dlkm.ko \
     $(KERNEL_MODULES_OUT)/stub_dlkm.ko \
     $(KERNEL_MODULES_OUT)/swr_ctrl_dlkm.ko \
