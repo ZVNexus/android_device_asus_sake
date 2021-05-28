@@ -146,7 +146,7 @@ PRODUCT_PACKAGES += \
 
 # Kernel
 KERNEL_MODULES_INSTALL := dlkm
-KERNEL_MODULES_OUT := out/target/product/sake/$(KERNEL_MODULES_INSTALL)/lib/modules
+KERNEL_MODULES_OUT := $(OUT_DIR)/target/product/sake/$(KERNEL_MODULES_INSTALL)/lib/modules
 
 # Keymaster
 PRODUCT_COPY_FILES += \
