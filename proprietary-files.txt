@@ -294,33 +294,35 @@ vendor/lib64/vendor.qti.latency@2.0.so
 # CVP
 vendor/etc/cvp/v2.0/facedetection/model1.dat
 vendor/etc/cvp/v2.1/facedetection/model2.dat
-vendor/firmware/evass.b01
-vendor/firmware/evass.b02
-vendor/firmware/evass.b03
-vendor/firmware/evass.b04
-vendor/firmware/evass.b05
-vendor/firmware/evass.b06
-vendor/firmware/evass.b07
-vendor/firmware/evass.b08
-vendor/firmware/evass.b09
-vendor/firmware/evass.b10
-vendor/firmware/evass.b11
-vendor/firmware/evass.b12
-vendor/firmware/evass.b13
-vendor/firmware/evass.b14
-vendor/firmware/evass.b15
-vendor/firmware/evass.b16
-vendor/firmware/evass.b17
-vendor/firmware/evass.b18
-vendor/firmware/evass.b19
-vendor/firmware/evass.mbn
-vendor/firmware/evass.mdt
 vendor/lib/rfsa/adsp/libcvpdsp_2_1.so
 vendor/lib64/libcvp_common.so
 vendor/lib64/libcvp_util.so
 vendor/lib64/libcvp2_1.so
 vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
+
+# CVP - ASUS
+vendor/firmware/evass.b01|d105ade912a8bf49ff5742f861330655b01bf51d
+vendor/firmware/evass.b02|7512fb2f70336006a2eb5a6ce899bfdeffa90da3
+vendor/firmware/evass.b03|64c207ff09afe4b451880ef31486900f857dbe88
+vendor/firmware/evass.b04|86a5ed4d22759036806d9321f8e509628f64c5b6
+vendor/firmware/evass.b05|e86c540829dd4d94d99c7f0c455d128ca65a45c8
+vendor/firmware/evass.b06|e19854e03b52cc67d7db620f54609b66d1b85f54
+vendor/firmware/evass.b07|0b403b94f400e8f76ac5f5f18f6957318ec2a582
+vendor/firmware/evass.b08|86a5ed4d22759036806d9321f8e509628f64c5b6
+vendor/firmware/evass.b09|2cd55b8a5a7ac7f5751bccb7bbc10934dc673e83
+vendor/firmware/evass.b10|f81de2668f266ad3134640972300a86d98663827
+vendor/firmware/evass.b11|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/evass.b12|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/evass.b13|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/evass.b14|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/evass.b15|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/evass.b16|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/evass.b17|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/evass.b18|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/evass.b19|1ceaf73df40e531df3bfb26b4fb7cd95fb7bff1d
+vendor/firmware/evass.mbn|d102684ad4b453cc4aff626894b9ad5b57b071a5
+vendor/firmware/evass.mdt|e18790ff17c5f5c26fd53f0c0b50383ffc995d5a
 
 # Camera - ASUS
 vendor/bin/dualcam_default_cali.bin|ee884d34685bea03a7d87c727bf25e95bfcd8102
@@ -1255,29 +1257,29 @@ vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 vendor/lib64/vendor.qti.hardware.vpp@2.0.so
 
-# VPU
-vendor/firmware/vpu20_4v.b01
-vendor/firmware/vpu20_4v.b02
-vendor/firmware/vpu20_4v.b03
-vendor/firmware/vpu20_4v.b04
-vendor/firmware/vpu20_4v.b05
-vendor/firmware/vpu20_4v.b06
-vendor/firmware/vpu20_4v.b07
-vendor/firmware/vpu20_4v.b08
-vendor/firmware/vpu20_4v.b09
-vendor/firmware/vpu20_4v.b10
-vendor/firmware/vpu20_4v.b11
-vendor/firmware/vpu20_4v.b12
-vendor/firmware/vpu20_4v.b13
-vendor/firmware/vpu20_4v.b14
-vendor/firmware/vpu20_4v.b15
-vendor/firmware/vpu20_4v.b16
-vendor/firmware/vpu20_4v.b17
-vendor/firmware/vpu20_4v.b18
-vendor/firmware/vpu20_4v.b19
-vendor/firmware/vpu20_4v.mbn
-vendor/firmware/vpu20_4v.mdt
-vendor/firmware/vpu20_4v_unsigned.mbn
+# VPU - ASUS
+vendor/firmware/vpu20_4v.b01|3a2e30014f27c56207f7dabe3953ee11c566d7c6
+vendor/firmware/vpu20_4v.b02|7a23598e03a319880e9eb7f288d8678be72160d3
+vendor/firmware/vpu20_4v.b03|7772b18b16e520641e8051fd6284384e9b0e1939
+vendor/firmware/vpu20_4v.b04|99065b73c172fecbeb14bee44535e9282c6d4e74
+vendor/firmware/vpu20_4v.b05|f726e7fa233485e02ef6172833d51353627aa81d
+vendor/firmware/vpu20_4v.b06|e19854e03b52cc67d7db620f54609b66d1b85f54
+vendor/firmware/vpu20_4v.b07|0b403b94f400e8f76ac5f5f18f6957318ec2a582
+vendor/firmware/vpu20_4v.b08|86a5ed4d22759036806d9321f8e509628f64c5b6
+vendor/firmware/vpu20_4v.b09|c1854c8571b9a207e21b992563acf684d73153fb
+vendor/firmware/vpu20_4v.b10|1af205e4e4c3af59a4546ae1d03fa9c3d421eaca
+vendor/firmware/vpu20_4v.b11|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/vpu20_4v.b12|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/vpu20_4v.b13|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/vpu20_4v.b14|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/vpu20_4v.b15|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/vpu20_4v.b16|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/vpu20_4v.b17|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/vpu20_4v.b18|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/firmware/vpu20_4v.b19|c1756e0567d10a1173f481cd367ff4637b2dd77f
+vendor/firmware/vpu20_4v.mbn|c2a39ea7f6a0a578ac7ee1b5b68ca244f299d48f
+vendor/firmware/vpu20_4v.mdt|eb108314946a2402da6aecdc0e30279e93f467c8
+vendor/firmware/vpu20_4v_unsigned.mbn|6258dab9a1bd56f5eb63110b16955a72e98e0252
 
 # Vibrator - ASUS
 vendor/bin/hw/vendor.asus.vibrator.vibratorgovern@1.0-service|3b0f45252e0fa170f95b362b45ef34cafeddaed5
