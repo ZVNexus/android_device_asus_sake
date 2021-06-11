@@ -1289,6 +1289,9 @@ vendor/firmware/aw8697_haptic.bin|6aa49ce61554f7d9c792af14ad3f67c1f6e39683
 vendor/lib64/hw/vendor.asus.vibrator.vibratorgovern@1.0-impl.so|44eb7e5d81c83703382357899756ae874c5ab502
 vendor/lib64/vendor.asus.vibrator.vibratorgovern@1.0.so|38fb67a2e81e1b9fcb0b80096094e441c5b4f83a
 
+# WLAN
+vendor/bin/cnss-daemon
+
 # WLAN - ASUS
 vendor/firmware/bdwlan.elf|4264ffb9d28409cd1a0666c8d1ddf388b72a3f92
 vendor/firmware/m3.bin|b0105ab5ccd35d6dd4a23a2f5f0d379134ec54d6
