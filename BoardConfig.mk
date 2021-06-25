@@ -127,9 +127,11 @@ BOARD_VENDOR_KERNEL_MODULES := \
     $(KERNEL_MODULES_OUT)/fc0013.ko \
     $(KERNEL_MODULES_OUT)/fc2580.ko \
     $(KERNEL_MODULES_OUT)/focaltech_fts_zf.ko \
+    $(KERNEL_MODULES_OUT)/gf_spi.ko \
     $(KERNEL_MODULES_OUT)/hdmi_dlkm.ko \
-    $(KERNEL_MODULES_OUT)/hid-aksys.ko \
     $(KERNEL_MODULES_OUT)/it913x.ko \
+    $(KERNEL_MODULES_OUT)/lid_2.ko \
+    $(KERNEL_MODULES_OUT)/lid.ko \
     $(KERNEL_MODULES_OUT)/llcc_perfmon.ko \
     $(KERNEL_MODULES_OUT)/m88rs6000t.ko \
     $(KERNEL_MODULES_OUT)/machine_dlkm.ko \
@@ -137,7 +139,6 @@ BOARD_VENDOR_KERNEL_MODULES := \
     $(KERNEL_MODULES_OUT)/mbhc_dlkm.ko \
     $(KERNEL_MODULES_OUT)/mc44s803.ko \
     $(KERNEL_MODULES_OUT)/msi001.ko \
-    $(KERNEL_MODULES_OUT)/msm_drm.ko \
     $(KERNEL_MODULES_OUT)/mt2060.ko \
     $(KERNEL_MODULES_OUT)/mt2063.ko \
     $(KERNEL_MODULES_OUT)/mt20xx.ko \
@@ -153,19 +154,22 @@ BOARD_VENDOR_KERNEL_MODULES := \
     $(KERNEL_MODULES_OUT)/q6_dlkm.ko \
     $(KERNEL_MODULES_OUT)/q6_notifier_dlkm.ko \
     $(KERNEL_MODULES_OUT)/q6_pdr_dlkm.ko \
-    $(KERNEL_MODULES_OUT)/qcom_edac.ko \
     $(KERNEL_MODULES_OUT)/qm1d1b0004.ko \
     $(KERNEL_MODULES_OUT)/qm1d1c0042.ko \
     $(KERNEL_MODULES_OUT)/qt1010.ko \
     $(KERNEL_MODULES_OUT)/r820t.ko \
-    $(KERNEL_MODULES_OUT)/radio-i2c-rtc6226-qca.ko \
     $(KERNEL_MODULES_OUT)/rdbg.ko \
+    $(KERNEL_MODULES_OUT)/rmnet_core.ko \
+    $(KERNEL_MODULES_OUT)/rmnet_ctl.ko \
+    $(KERNEL_MODULES_OUT)/rmnet_offload.ko \
+    $(KERNEL_MODULES_OUT)/rmnet_shs.ko \
     $(KERNEL_MODULES_OUT)/rx_macro_dlkm.ko \
     $(KERNEL_MODULES_OUT)/si2157.ko \
-    $(KERNEL_MODULES_OUT)/slimbus-ngd.ko \
+    $(KERNEL_MODULES_OUT)/sla.ko \
     $(KERNEL_MODULES_OUT)/slimbus.ko \
-    $(KERNEL_MODULES_OUT)/snd-soc-es928x.ko \
+    $(KERNEL_MODULES_OUT)/slimbus-ngd.ko \
     $(KERNEL_MODULES_OUT)/snd_event_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/snd-soc-es928x.ko \
     $(KERNEL_MODULES_OUT)/stub_dlkm.ko \
     $(KERNEL_MODULES_OUT)/swr_ctrl_dlkm.ko \
     $(KERNEL_MODULES_OUT)/swr_dlkm.ko \
@@ -184,19 +188,15 @@ BOARD_VENDOR_KERNEL_MODULES := \
     $(KERNEL_MODULES_OUT)/tuner-xc2028.ko \
     $(KERNEL_MODULES_OUT)/tx_macro_dlkm.ko \
     $(KERNEL_MODULES_OUT)/va_macro_dlkm.ko \
-    $(KERNEL_MODULES_OUT)/wcd937x_dlkm.ko \
-    $(KERNEL_MODULES_OUT)/wcd937x_slave_dlkm.ko \
     $(KERNEL_MODULES_OUT)/wcd938x_dlkm.ko \
     $(KERNEL_MODULES_OUT)/wcd938x_slave_dlkm.ko \
     $(KERNEL_MODULES_OUT)/wcd9xxx_dlkm.ko \
     $(KERNEL_MODULES_OUT)/wcd_core_dlkm.ko \
+    $(KERNEL_MODULES_OUT)/wlan.ko \
     $(KERNEL_MODULES_OUT)/wsa883x_dlkm.ko \
     $(KERNEL_MODULES_OUT)/wsa_macro_dlkm.ko \
     $(KERNEL_MODULES_OUT)/xc4000.ko \
     $(KERNEL_MODULES_OUT)/xc5000.ko
-
-BOARD_VENDOR_RAMDISK_KERNEL_MODULES := \
-    $(KERNEL_MODULES_OUT)/msm_drm.ko
 
 KERNEL_DEFCONFIG := vendor/lahaina-qgki_defconfig
 
