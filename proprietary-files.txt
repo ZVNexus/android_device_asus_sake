@@ -1227,14 +1227,17 @@ vendor/etc/init/tloc_daemon.rc
 
 # Thermal
 vendor/bin/hw/vendor.qti.hardware.limits@1.0-service
-vendor/bin/thermal-engine
-vendor/etc/init/init_thermal-engine.rc
 vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc
 -vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml
-vendor/etc/thermal-engine.conf
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
 vendor/lib64/vendor.qti.hardware.limits@1.0.so
+
+# Thermal - ASUS
+vendor/bin/hw/android.hardware.thermal@2.0-service.qti|039a129da30d69a9a14f54632492db37284785ff
+vendor/bin/thermal-engine|d6a75bd618f4f9d23053284d21b5afdc6be252c2
+vendor/etc/init/init_thermal-engine.rc|f0d14aa4734b2e8afd61a4eed73238187b268f48
+vendor/etc/thermal-engine.conf|c3a914cfcc13e7bd03dd2b14319a5f3d715f60eb
+-vendor/lib/libthermalclient.so|c364ae898be1342e6f471790481c0899bd81fff4
+-vendor/lib64/libthermalclient.so|f45814f613c8a906c0d60b78da16270fbb4fcf97
 
 # Time Services
 -vendor/app/TimeService/TimeService.apk
