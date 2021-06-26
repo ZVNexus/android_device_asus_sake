@@ -666,8 +666,10 @@ vendor/lib64/libfastcvdsp_stub.so
 -vendor/lib64/libfastcvopt.so
 
 # Fingerprint - ASUS
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|501f387f65bf4c46210ddd6eefa75b0e8e69aeda
 vendor/bin/fp_cali_mv|54fd21708d51d96d5aa721957f5586b2b11048bd
 vendor/bin/gf_ver.sh|5a0c50a42da510652ec56eb5197ff631cd1f5d01
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|fccd5017a519af9a10e9321fd5a541386d0cfe3c
 vendor/etc/init/init.goodixfp.rc|75ef757820154823e7e6a922d3e6ecce7eebf32f
 vendor/firmware/goodixfp64.b00|24518ad3bef740965d33d13bd84452c401dd0ffb
 vendor/firmware/goodixfp64.b01|f9dedaebbac2d5e3de9e58130e9b1c97666d5cdb
