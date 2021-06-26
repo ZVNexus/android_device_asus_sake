@@ -140,6 +140,7 @@ PRODUCT_PACKAGES += \
     fstab.default \
     init.asus.camera.rc \
     init.asus.fingerprint.rc \
+    init.asus.sensors.rc \
     init.asus.wlan.rc \
     init.qti.ufs.rc \
     init.target.rc \

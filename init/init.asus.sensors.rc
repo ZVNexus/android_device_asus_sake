@@ -1,0 +1,48 @@
+# Copyright (C) 2021 Paranoid Android
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+on boot
+    # PSensor
+    chown system shell /sys/class/sensors/psensor/hi_cal
+    chown system shell /sys/class/sensors/psensor/inf_cal
+    chown system shell /sys/class/sensors/psensor/load_cal
+    chown system shell /sys/class/sensors/psensor/low_cal
+    chown system shell /sys/class/sensors/psensor/proxm
+    chown system shell /sys/class/sensors/psensor/selection
+    chown system shell /sys/class/sensors/psensor/switch
+
+    # PSensor 2
+    chown system shell /sys/class/sensors/psensor_2nd/hi_cal
+    chown system shell /sys/class/sensors/psensor_2nd/inf_cal
+    chown system shell /sys/class/sensors/psensor_2nd/load_cal
+    chown system shell /sys/class/sensors/psensor_2nd/low_cal
+    chown system shell /sys/class/sensors/psensor_2nd/proxm
+    chown system shell /sys/class/sensors/psensor_2nd/selection
+    chown system shell /sys/class/sensors/psensor_2nd/switch
+
+    # LSensor
+    chown system shell /sys/class/sensors/lsensor/adc
+    chown system shell /sys/class/sensors/lsensor/cal
+    chown system shell /sys/class/sensors/lsensor/selection
+    chown system shell /sys/class/sensors/lsensor/switch
+
+    # LSensor 2
+    chown system shell /sys/class/sensors/lsensor_2nd/adc
+    chown system shell /sys/class/sensors/lsensor_2nd/cal
+    chown system shell /sys/class/sensors/lsensor_2nd/selection
+    chown system shell /sys/class/sensors/lsensor_2nd/switch
+
+on post-fs-data
+    write /sys/class/sensors/psensor/load_cal 1
+    write /sys/class/sensors/psensor_2nd/load_cal 1
