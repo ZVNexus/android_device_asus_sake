@@ -189,6 +189,22 @@ vendor/lib64/libssrec.so
 vendor/lib64/libstagefright_soft_qtiflacdec.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
+# Audio - ASUS
+vendor/firmware/cs35l45-rcv-dsp1-spk-cali.bin|a3316931a53e17ac69efacb6365968f2a1a53814
+vendor/firmware/cs35l45-rcv-dsp1-spk-cali.wmfw|5832542223a2050d1901aa212bec054350acf240
+vendor/firmware/cs35l45-rcv-dsp1-spk-prot.bin|f29d653495617e34109dbadc3fed313f961b227b
+vendor/firmware/cs35l45-rcv-dsp1-spk-prot.wmfw|5832542223a2050d1901aa212bec054350acf240
+vendor/firmware/cs35l45-rcv-music.txt|04a84a9c384eaa7d0eb894c3ab855ddaf1384433
+vendor/firmware/cs35l45-rcv-outdoor.txt|fc142af6a6ecf5dabdef413464e5a89c7dfe7425
+vendor/firmware/cs35l45-rcv-voice.txt|6661487c03acdc2fd42c6e859bb5cb639d691830
+vendor/firmware/cs35l45-spk-dsp1-spk-cali.bin|425cc158321423449e81568f0a2112d3fcdb9c47
+vendor/firmware/cs35l45-spk-dsp1-spk-cali.wmfw|5832542223a2050d1901aa212bec054350acf240
+vendor/firmware/cs35l45-spk-dsp1-spk-prot.bin|18fc854331fb1630ba275184a1e0b079e2d77fba
+vendor/firmware/cs35l45-spk-dsp1-spk-prot.wmfw|5832542223a2050d1901aa212bec054350acf240
+vendor/firmware/cs35l45-spk-music.txt|7b19e0a011e0532b562cf49dd7d22373ac79b37b
+vendor/firmware/cs35l45-spk-outdoor.txt|fc142af6a6ecf5dabdef413464e5a89c7dfe7425
+vendor/firmware/cs35l45-spk-voice.txt|6661487c03acdc2fd42c6e859bb5cb639d691830
+
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
