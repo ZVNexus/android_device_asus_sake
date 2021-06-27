@@ -203,6 +203,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := all
 
+# RIL
+PRODUCT_PROPERTY_OVERRIDES += \
+    ril.subscription.types=RUIM,RUIM
+
 # Sensors
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.accelerometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.accelerometer.xml \
