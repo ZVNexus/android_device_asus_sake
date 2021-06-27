@@ -1128,9 +1128,11 @@ vendor/lib64/libnative-api.so
 vendor/lib64/libqcbor.so
 
 # Sensors - ASUS
+vendor/bin/hw/android.hardware.sensors@2.0-service.multihal|e77b4662b840c04ba37afdb19add2eec47ab0257
 vendor/bin/init.qcom.sensors.sh|454c6de8c65b9ad1c41f063544871a4ba0665689
 vendor/bin/sensors.qti|71c0b027a0310d29b2c83b7c861f24bef00e3a2e
 vendor/bin/sscrpcd|9d4c7d32abb5e9910f87205d100be7922f6a0d80
+vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc|11932c75de7c80ef2049538a6977a905ee6c38bf
 vendor/etc/init/init.vendor.sensors.rc|ba95da3534472272490996e62ac9af00b46b28a0
 vendor/etc/init/vendor.sensors.qti.rc|f34fc966af816b50f10ae7520b33863961a14478
 vendor/etc/init/vendor.sensors.sscrpcd.rc|df52901f1ad0fbc97d6070e28896a6be40154814
