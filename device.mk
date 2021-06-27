@@ -205,6 +205,7 @@ TARGET_COMMON_QTI_COMPONENTS := all
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.radio.always_send_plmn=1 \
     ril.subscription.types=RUIM,RUIM
 
 # Sensors
