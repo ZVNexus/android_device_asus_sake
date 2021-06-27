@@ -183,6 +183,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AOSPAZenFone8Frameworks \
     AOSPAZenFone8Settings \
     AOSPAZenFone8SystemUI \
     FrameworksResTarget \
