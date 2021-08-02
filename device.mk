@@ -90,7 +90,22 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/recovery.fstab:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.default
 
 PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc
+    init.class_main.sh \
+    init.crda.sh \
+    init.mdm.sh \
+    init.qcom.class_core.sh \
+    init.qcom.coex.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.efs.sync.sh \
+    init.qcom.factory.rc \
+    init.qcom.post_boot.sh \
+    init.qcom.rc \
+    init.qcom.sdio.sh \
+    init.qcom.sh \
+    init.recovery.qcom.rc \
+    init.veth_ipa_config.sh \
+    qca6234-service.sh \
+    ueventd.qcom.rc
 
 # Media
 PRODUCT_COPY_FILES += \
