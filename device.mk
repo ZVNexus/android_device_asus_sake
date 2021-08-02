@@ -87,9 +87,10 @@ PRODUCT_PACKAGES += \
 
 # Initialization
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init/recovery.fstab:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.default
+    $(LOCAL_PATH)/init/fstab.default:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.default
 
 PRODUCT_PACKAGES += \
+    fstab.default \
     init.class_main.sh \
     init.crda.sh \
     init.mdm.sh \
@@ -103,6 +104,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sdio.sh \
     init.qcom.sh \
     init.recovery.qcom.rc \
+    init.target.rc \
     init.veth_ipa_config.sh \
     qca6234-service.sh \
     ueventd.qcom.rc
