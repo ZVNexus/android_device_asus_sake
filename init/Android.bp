@@ -31,6 +31,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.asus.nfc.rc",
+    src: "init.asus.nfc.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.asus.sensors.rc",
     src: "init.asus.sensors.rc",
     sub_dir: "init",
