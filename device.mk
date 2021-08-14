@@ -179,6 +179,7 @@ PRODUCT_PACKAGES += \
     init.asus.haptics.rc \
     init.asus.nfc.rc \
     init.asus.sensors.rc \
+    init.asus.thermal.rc \
     init.class_main.sh \
     init.crda.sh \
     init.mdm.sh \

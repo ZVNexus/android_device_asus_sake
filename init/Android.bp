@@ -45,6 +45,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.asus.thermal.rc",
+    src: "init.asus.thermal.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.qcom.factory.rc",
     src: "init.qcom.factory.rc",
     sub_dir: "init/hw",
