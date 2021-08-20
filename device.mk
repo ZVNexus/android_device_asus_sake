@@ -179,6 +179,7 @@ PRODUCT_PACKAGES += \
     init.asus.fingerprint.rc \
     init.asus.haptics.rc \
     init.asus.nfc.rc \
+    init.asus.power.rc \
     init.asus.sensors.rc \
     init.asus.thermal.rc \
     init.class_main.sh \
