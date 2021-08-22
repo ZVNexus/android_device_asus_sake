@@ -242,10 +242,6 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
-    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
-         autodetected from the Configuration. -->
-    <bool name="config_showNavigationBar">true</bool>
-
     <!-- Flag indicating if the speed up audio on mt call code should be executed -->
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>
 
@@ -327,15 +323,6 @@
          Note that doze dreams are not subject to the same start conditions as ordinary dreams.
          Doze dreams will run whenever the power manager is in a dozing state. -->
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
-
-    <!-- MMS user agent string -->
-    <string name="config_mms_user_agent">Android-Mms/2.0</string>
-
-    <!-- MMS user agent profile URL -->
-    <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
-
-    <!--  Define optional package verifier name -->
-    <string name="config_optionalPackageVerifierName">seemp.service</string>
 
     <!-- Flag indicating which package name can access the persistent data partition -->
     <string name="config_persistentDataPackageName">com.google.android.gms</string>
