@@ -7,6 +7,11 @@
 # Inherit from our proprietary files directory.
 $(call inherit-product, vendor/asus/sake/sake-vendor.mk)
 
+# Add optional fdroid support
+ifeq ($(WITH_FDROID),true)
+$(call inherit-product, vendor/fdroid/fdroid-vendor.mk)
+endif
+
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
