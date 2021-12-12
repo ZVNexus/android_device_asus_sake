@@ -186,6 +186,9 @@
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
 
+    <!-- Whether to select voice/data/sms preference without user confirmation. -->
+    <bool name="config_voice_data_sms_auto_fallback">true</bool>
+
     <!-- Whether WiFi display is supported by this device.
          There are many prerequisites for this feature to work correctly.
          Here are a few of them:
@@ -271,5 +274,14 @@
     <!-- Enable overlays for location components. -->
     <string name="config_comboNetworkLocationProvider">com.qualcomm.location</string>
     <string name="config_networkLocationProviderPackageName">com.qualcomm.location</string>
+
+    <!-- Telephony qualified networks service package name to bind to by default. -->
+    <string name="config_qualified_networks_service_package">vendor.qti.iwlan</string>
+
+    <!-- IWLAN data service package name to bind to by default. -->
+    <string name="config_wlan_data_service_package">vendor.qti.iwlan</string>
+
+    <!-- IWLAN network service package name to bind to by default. -->
+    <string name="config_wlan_network_service_package">vendor.qti.iwlan</string>
 
 </resources>

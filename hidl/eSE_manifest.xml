@@ -7,6 +7,6 @@
     <hal format="hidl">
         <name>android.hardware.secure_element</name>
         <transport>hwbinder</transport>
-        <fqname>@1.2::ISecureElement/eSE1</fqname>
+        <fqname>@1.1::ISecureElement/eSE1</fqname>
     </hal>
 </manifest>
