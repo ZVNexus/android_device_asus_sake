@@ -23,6 +23,17 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <!-- NFC -->
+    <hal format="hidl">
+        <name>vendor.nxp.nxpese</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::INxpEse/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.nxp.nxpnfc</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::INxpNfc/default</fqname>
+    </hal>
     <!-- Live Display -->
     <hal format="hidl">
         <name>vendor.lineage.livedisplay</name>
