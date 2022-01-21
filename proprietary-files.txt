@@ -281,7 +281,7 @@ vendor/lib64/libstagefright_soft_qtiflacdec.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # Bluetooth
--system/app/aptxals/aptxals.apk
+-system/app/aptxals/aptxals.apk|2b22886ac3c130a0a328fa6326ad56c14e1108f6
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
@@ -622,24 +622,24 @@ vendor/etc/init/ssgtzd.rc
 vendor/lib64/libminksocket.so
 
 # DPM
--system/framework/tcmclient.jar
-system_ext/bin/dpmd
-system_ext/etc/dpm/dpm.conf
-system_ext/etc/init/dpmd.rc
-system_ext/etc/permissions/com.qti.dpmframework.xml
-system_ext/etc/permissions/dpmapi.xml
-system_ext/framework/com.qti.dpmframework.jar
-system_ext/framework/dpmapi.jar
-system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so
-system_ext/lib/libdpmctmgr.so
-system_ext/lib/libdpmfdmgr.so
-system_ext/lib/libdpmframework.so
-system_ext/lib/libdpmtcm.so
-system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so
-system_ext/lib64/libdpmctmgr.so
-system_ext/lib64/libdpmfdmgr.so
-system_ext/lib64/libdpmframework.so
-system_ext/lib64/libdpmtcm.so
+-system/framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
+system_ext/bin/dpmd|0f22b5229c85007681abd3f6d81a41a7f32462a7
+system_ext/etc/dpm/dpm.conf|5f3ea2daa6c83faba3c81a132de1acac0e62ac6e
+system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
+system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
+system_ext/etc/permissions/dpmapi.xml|9158c9789cc7135a685b3fb27f8cc27108b51fef
+system_ext/framework/com.qti.dpmframework.jar|bf00bc3b48ff310c94ac45eb5478ae535f2338ee
+system_ext/framework/dpmapi.jar|2e2fbe2257a697b96a644c774136da0554430d3f
+system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so|133f0bb54be39eefa757eb95d6935779e32d8cce
+system_ext/lib/libdpmctmgr.so|1a22f172ae1dab312db7cf8c4eb85b69f2b596b7
+system_ext/lib/libdpmfdmgr.so|1a61ddc034577ea8ebdbd85b8531a3edef561321
+system_ext/lib/libdpmframework.so|168e2ec57d888575512f3d0f9b78eaf08b607158
+system_ext/lib/libdpmtcm.so|72bde9f369d7ed97578a3d558e7f54bbd5361ba9
+system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|f2d02195cca305fad78402c65d090bad72955262
+system_ext/lib64/libdpmctmgr.so|df8427f799e6a8cc5ff2ff39fe0323d8b60e815a
+system_ext/lib64/libdpmfdmgr.so|bd1bbd376c2bdfac2f3a4c230ce65cd35cb1c6bd
+system_ext/lib64/libdpmframework.so|67ebd736333ae7158632735e3db06a4f9664f6a6
+system_ext/lib64/libdpmtcm.so|ddef98d55e3045ebac458b38165acd5d2f75cd7a
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
@@ -680,8 +680,8 @@ vendor/lib64/libqdp.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 
 # Diagnostics
-system_ext/lib64/libdiag_system.so
-system_ext/lib64/vendor.qti.diaghal@1.0.so
+system_ext/lib64/libdiag_system.so|5b416288a87bf7fd1096ee13cad1df96f7850c36
+system_ext/lib64/vendor.qti.diaghal@1.0.so|4ef9d68a995e89452479e9ba30218f0b2fd3d57f
 vendor/bin/diag-router
 vendor/etc/init/vendor.qti.diag.rc
 -vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
@@ -923,21 +923,21 @@ vendor/lib64/libloc_core.so
 vendor/lib64/liblocation_api.so
 
 # GPS
-system_ext/etc/permissions/com.qti.location.sdk.xml
-system_ext/etc/permissions/com.qualcomm.location.xml
-system_ext/etc/permissions/com.qualcomm.qti.izattools.xml
-system_ext/etc/permissions/izat.xt.srv.xml
-system_ext/etc/permissions/privapp-permissions-com.qualcomm.location.xml
--system_ext/framework/com.qti.location.sdk.jar
--system_ext/framework/izat.xt.srv.jar
-system_ext/lib64/vendor.qti.gnss@1.0.so
-system_ext/lib64/vendor.qti.gnss@1.1.so
-system_ext/lib64/vendor.qti.gnss@1.2.so
-system_ext/lib64/vendor.qti.gnss@2.0.so
-system_ext/lib64/vendor.qti.gnss@2.1.so
-system_ext/lib64/vendor.qti.gnss@3.0.so
-system_ext/lib64/vendor.qti.gnss@4.0.so
--system_ext/priv-app/com.qualcomm.location/com.qualcomm.location.apk
+system_ext/etc/permissions/com.qti.location.sdk.xml|fac5922b978d83a00cd9ec0ddcf2c5d7ab26d492
+system_ext/etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
+system_ext/etc/permissions/com.qualcomm.qti.izattools.xml|5322f31201ffb8ab62d141beb24bc880c7aed8c8
+system_ext/etc/permissions/izat.xt.srv.xml|e7dddfa669a19e5f300641f695f563fdf22897c0
+system_ext/etc/permissions/privapp-permissions-com.qualcomm.location.xml|bf06b6918236f146982bc54575ec9d4ad0ed00b0
+-system_ext/framework/com.qti.location.sdk.jar|ec086ad0899a1cb98eb506723513cb3776f51a70
+-system_ext/framework/izat.xt.srv.jar|94395f153f4ed17b42f2067b0a639187e51944df
+system_ext/lib64/vendor.qti.gnss@1.0.so|c70f270eadd8e222d7ea167588b05bd00f15dc39
+system_ext/lib64/vendor.qti.gnss@1.1.so|10a010fc4a2fdd74c0b54474dbfc9b285443b6df
+system_ext/lib64/vendor.qti.gnss@1.2.so|fdea53d3c3d228d0107ae1561d6207d3607aa10c
+system_ext/lib64/vendor.qti.gnss@2.0.so|3271cbbdc5cb6899e40a869f61e7b172543fd20c
+system_ext/lib64/vendor.qti.gnss@2.1.so|8b911394b314cae81b20210404d6f2847b183395
+system_ext/lib64/vendor.qti.gnss@3.0.so|c0655559a8aae4d076b77746f177d5c2a0563d9a
+system_ext/lib64/vendor.qti.gnss@4.0.so|5d79f57d3207844e4d6b2f870e382f175b9793ad
+-system_ext/priv-app/com.qualcomm.location/com.qualcomm.location.apk|bd286509e0e5c8686903818fa3670a31dc4d09cf
 vendor/bin/garden_app
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
@@ -987,21 +987,21 @@ vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
 # Hotword Enrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
--system_ext/framework/com.android.hotwordenrollment.common.util.jar
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|9032098bbaa7dd88a882e533cb29ec34888dbbd2
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|48868e21987b097d23312f88a02ec522033d1189
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
+-system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
 
 # IMS
-system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
-system_ext/lib64/lib-imsvideocodec.so
-system_ext/lib64/lib-imsvt.so
-system_ext/lib64/lib-imsvtextutils.so
-system_ext/lib64/lib-imsvtutils.so
-system_ext/lib64/libimscamera_jni.so
-system_ext/lib64/libimsmedia_jni.so
-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
--system_ext/priv-app/ims/ims.apk
+system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|4f0056403f56928b8c75a617ba582f17061f89ae
+system_ext/lib64/lib-imsvideocodec.so|db6bcf7b74bc47acc4553b6efd64239b03bd27c2
+system_ext/lib64/lib-imsvt.so|2a1398979ccf62e2fe6059fc7fd54297b8a9a4af
+system_ext/lib64/lib-imsvtextutils.so|7fe2cf5ac5f84c3c61b4458099efcf900801c2e2
+system_ext/lib64/lib-imsvtutils.so|2d9f15c83f0403dc3d3c82d4868796d303d2a4a4
+system_ext/lib64/libimscamera_jni.so|e1f3415ef21497f5bb551b846e7f92297bdd3156
+system_ext/lib64/libimsmedia_jni.so|ad16488a887c84de26d73e3eb529865b3f6ff4ee
+system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|393c5affc1e8e36470705ec44396d1ffa603a541
+-system_ext/priv-app/ims/ims.apk|4e93d2bfa89f46019572557a920d4f7183674308
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdaemon
 vendor/etc/init/dataadpl.rc
@@ -1080,10 +1080,10 @@ vendor/lib/libmmosal.so
 vendor/lib64/libmmosal.so
 
 # Media
-system_ext/lib/libmmosal.so
-system_ext/lib/libmmparser_lite.so
-system_ext/lib64/libmmosal.so
-system_ext/lib64/libmmparser_lite.so
+system_ext/lib/libmmosal.so|175c890c965a14043777000cd2cfc20264b04810
+system_ext/lib/libmmparser_lite.so|f7c987cd56979f105a3f570bccf04435becd978e
+system_ext/lib64/libmmosal.so|378098a961e465b5d14a29f5bc2320e10c88580c
+system_ext/lib64/libmmparser_lite.so|92863a1897956a514cf44fb0b49acd587bc82e09
 vendor/bin/hw/qconfigservice
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/bin/init.qti.media.sh
@@ -1231,8 +1231,8 @@ vendor/lib64/libperipheral_client.so
 vendor/etc/powerhint.xml
 
 # Power Off Alarm
--product/app/PowerOffAlarm/PowerOffAlarm.apk
-system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|f44cef5163025b5aa8c2b4b36b0ce29379e4de44
+system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar|6508f5708221399eb8bd9754dc49bad32a911e27
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
@@ -1249,13 +1249,13 @@ vendor/lib64/libsoc_helper_jni.so
 vendor/lib64/libsoc_helper.so
 
 # QCRIL
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
-system_ext/etc/permissions/qcrilhook.xml
-system_ext/etc/permissions/qti_libpermissions.xml
-system_ext/etc/permissions/qti_permissions.xml
-system_ext/etc/permissions/telephonyservice.xml
--system_ext/framework/qcrilhook.jar
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|db8d3cee2d67fb8acc299c2414a6b56ba31f4c0f
+system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
+system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
+system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
+system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
+-system_ext/framework/qcrilhook.jar|04105bc10d238d1d38ecf044c318ad8aefc1d237
+-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|81696e0c9aa9961f4a128e9484beb61a84afb619
 vendor/bin/hw/qcrilNrd
 vendor/bin/qtigetprop
 vendor/bin/qtisetprop
